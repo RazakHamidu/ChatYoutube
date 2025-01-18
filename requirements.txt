@@ -1,0 +1,3 @@
+langchain-community
+pytube
+yt-dlp

@@ -1,14 +1,8 @@
 from dotenv import load_dotenv
 from promptSystemInstructions import SystemInstructions
+from YouTubeTranscripts import YouTubeTranscripts
 import os
 import google.generativeai as genai
-from langchain_community.document_loaders import YoutubeLoader
-
-
-InputYoutubeUrl = str(input("Insert url video -> "))
-loader = YoutubeLoader.from_youtube_url(
-    InputYoutubeUrl, add_video_info=False
-)
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -32,6 +26,7 @@ chat_session = model.start_chat(
   history=[
   ]
 )
+
 
 while True:
     user_input = str(input("-> "))
