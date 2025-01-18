@@ -27,6 +27,9 @@ chat_session = model.start_chat(
   ]
 )
 
+url_video_Youtube = str(input("Inserivi il link del video Youtube-> "))
+response = chat_session.send_message(YouTubeTranscripts(url_video_Youtube))
+print(f"ChatAI: {response.text}")
 
 while True:
     user_input = str(input("-> "))
