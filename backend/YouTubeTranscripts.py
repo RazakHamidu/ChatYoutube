@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import YoutubeLoader
 
 def YouTubeTranscripts(urlVideoYuotubr):
-    loader = YoutubeLoader.from_youtube_url(urlVideoYuotubr)
+    loader = YoutubeLoader.from_youtube_url(urlVideoYuotubr, language=["en", "it"],)
 
     documents = loader.load()
 
