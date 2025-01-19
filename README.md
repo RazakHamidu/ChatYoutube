@@ -7,6 +7,7 @@
 **Soluzione**: SumTube è un'applicazione progettata per risolvere questo problema, consentendo di generare riassunti dettagliati dei video YouTube. L'app utilizza il modello AI gemini-2.0-flash-exp per elaborare i contenuti dei video e creare riassunti chiari e utili, permettendoti di risparmiare tempo e accedere direttamente alle informazioni principali.
 
 L'app è stata sviluppata con **Streamlit** per un'interfaccia utente interattiva e **Google Generative AI (gemini-2.0-flash-exp)** per il processo di generazione del contenuto.
+[![Video dimostrativo](BEZG20fRPJc)](https://youtu.be/BEZG20fRPJc)
 
 ---
 
