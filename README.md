@@ -22,8 +22,7 @@ App/
 |-- model.py                     # Funzione principale per generare i contenuti
 |-- promptSystemInstructions.py  # Prompt per le istruzioni del modello AI
 |-- YouTubeTranscripts.py        # Modulo per estrarre trascrizioni da YouTube
-
-design/                           
+                           
 |-- ...
 .gitignore                       
 README.md                        
