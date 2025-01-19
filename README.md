@@ -1,10 +1,10 @@
-# ChatYoutube
+# SumTube
 
 ## Descrizione del progetto
 
 **Problema**: Quando non hai abbastanza tempo per guardare lunghi podcast o vuoi solo farti un'idea dei punti principali di un video YouTube, trovare queste informazioni rapidamente può essere complicato e richiede troppo tempo.
 
-**Soluzione**: ChatYoutube è un'applicazione progettata per risolvere questo problema, consentendo di generare riassunti dettagliati dei video YouTube. L'app utilizza il modello AI gemini-2.0-flash-exp per elaborare i contenuti dei video e creare riassunti chiari e utili, permettendoti di risparmiare tempo e accedere direttamente alle informazioni principali.
+**Soluzione**: SumTube è un'applicazione progettata per risolvere questo problema, consentendo di generare riassunti dettagliati dei video YouTube. L'app utilizza il modello AI gemini-2.0-flash-exp per elaborare i contenuti dei video e creare riassunti chiari e utili, permettendoti di risparmiare tempo e accedere direttamente alle informazioni principali.
 
 L'app è stata sviluppata con **Streamlit** per un'interfaccia utente interattiva e **Google Generative AI (gemini-2.0-flash-exp)** per il processo di generazione del contenuto.
 
@@ -67,7 +67,7 @@ Per utilizzare l'applicazione, segui i passaggi seguenti:
 
 ```bash
 $ git clone <URL_DEL_REPOSITORY>
-$ cd ChatYoutube
+$ cd SumTube
 ```
 
 ### 2. Crea un ambiente virtuale
