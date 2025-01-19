@@ -26,7 +26,6 @@ model = genai.GenerativeModel(
     generation_config=generation_config,
 )
 
-
 # Stato della sessione per la chat
 if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
