@@ -2,7 +2,7 @@ from model import model  # Importa la funzione principale per generare riassunti
 import streamlit as st  # Libreria per creare interfacce utente web interattive
 
 # Imposta il titolo dell'app
-st.title("💬 ChatYoutube")
+st.title("💬 SumTube")
 
 # Crea un contenitore vuoto per l'input
 input_container = st.empty()
