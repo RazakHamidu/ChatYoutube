@@ -67,7 +67,7 @@ Per utilizzare l'applicazione, segui i passaggi seguenti:
 ### 1. Clona il repository
 
 ```bash
-$ git clone <URL_DEL_REPOSITORY>
+$ git clone https://github.com/RazakHamidu/SumTube.git
 $ cd SumTube
 ```
 
